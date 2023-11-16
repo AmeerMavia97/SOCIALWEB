@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* LOGIN.CSS */
+.main-div {
+    margin-top: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 1px solid black;
+}
+
+.main-head2 {
+    margin-top: 50px;
+    color: #00c0f9;
+    margin-left: 130px;
+    margin-bottom: 40px;
+    font-size: 55px;
+    font-family: 'Lobster', sans-serif;
+}
+
+.form-input {
+    width: 70%;
+    height: 35px;
+    background-color: #fafafa;
+    border:1px solid #dbdbdb ;
+    border-radius: 3px;
+    margin-left: 15%;
+
+}
+#wrongpass{
+    color: rgb(255, 0, 0);
+    margin-left: 80px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;    
+}
+
+.login-btn {
+    padding: 10px 140px 10px 160px;
+    margin-left: 80px;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+    color: white;
+    border:1px solid #00c0f9;
+    background-color: #00c0f9;
+    cursor: pointer;
+}
+
+.breakline1 {
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 10px;
+}
+
+.breakline2 {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.social-icons1 {
+    border:1px solid #00c0f9;
+    color: white;
+    background-color: #00c0f9;
+    border-radius: 100%;
+    margin-left: 35%;
+    margin-top: 20px;
+    padding: 12px 14px 12px 14px;
+}
+
+.social-icons23 {
+    color: white;
+    border:1px solid #00c0f9;
+    background-color: #00c0f9;
+    border-radius: 100%;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 12px 14px 12px 14px;
+}
+
+.forget-btn {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dontacc-btn{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid black;
+    padding: 1%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+/* LOGIN CSS END */
+
+/* HOME CSS START */
+.navbar {
+    /* position: fixed; */
+    z-index: 1;
+    margin-top: 10px;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 64px;
+    color: #f9f9f9;
+    font-family: "Poppins";
+    box-sizing: border-box;
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 30px;
+    margin-right: 180px;
+    color: black;
+    font-size: 16px;
+}
+
+.hr {
+    margin-top: 10px;
+    height: 3px;
+    /* Adjust the height of the horizontal rule */
+    background-color: grey;
+    /* Set the background color of the hr */
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.3);
+}
+
+.navbar-title {
+    margin: 0;
+    color:  #00c0f9;
+    margin-right: 500px;
+    font-size: 30px;
+    margin-left: 5px;
+    font-family: 'Lobster', sans-serif;
+}
+
+
+.nav-logo {
+    /* color: white; */
+    font-size: 30px;
+    margin-left: 80px;
+    color: orange;
+    font-size: 35px;
+}

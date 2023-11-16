@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login user</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,500;1,300&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="main-div">
+        <h1 class="main-head2 text-white ">Connect Hub</h1>
+        <div>
+            <form id="login-btn2">
+                <input class="form-input" id="login-email" type="email" placeholder="Enter your email"> <br> <br>
+                <input type="password" id="login-password" class="form-input" placeholder="Enter your Password">
+                <span id="wrongpass"></span>
+                <button type="submit" class="login-btn">LOGIN NOW</button>
+            </form>
+        </div>
+        <span class="breakline1">____________________</span><span class="breakline2">OR</span><span>______________________</span>
+        <div>
+            <button class="social-icons1"><i class="icon fa-brands fa-instagram"></i></i></button>
+            <button class="social-icons23"><i class="icon fa-brands fa-twitter"></i></button>
+            <button class="social-icons23"><i class="icon fa-brands fa-linkedin"></i></button>
+        </div>
+        <a href="./forgetpass.html">
+            <p id="forget-pass" class="forget-btn">Forget password</p>
+        </a>
+    </div>
+        <p class="dontacc-btn">Don't have an account?<span><a href="register.html">sign up</a></span></p>
+    
+
+    <!-- SWEETALERT LINK -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- FONTAWESOME LINK -->
+    <script src="https://kit.fontawesome.com/395827b13c.js" crossorigin="anonymous"></script>
+
+    <!-- CONNECT JS FILE -->
+    <script type="module" src="login.js"></script>
+</body>
+
+</html>

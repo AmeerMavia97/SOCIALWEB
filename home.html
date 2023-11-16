@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Connect Hub - dashbord</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,500;1,300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+     <!-- START NAV -->
+     <div>
+        <nav class="navbar">
+            <div>
+
+                <h1 class="navbar-title">Connect Hub</h1>
+            </div>
+            <div class="navbar-menu">
+                <p type="button">FEATURES</p>
+                <p type="button" class="active">ECONOMY</p>
+                <p>NEWS</p>
+                <p type="button" class="nav-content">OPINION</p>
+            </div>
+        </nav>
+    </div>
+    <hr class="hr">
+    <!-- END NAV -->
+
+    <div style="margin-top: 10px; display: flex; justify-content: space-evenly ; align-items: center; ">
+        <h1>HOME</h1>
+        <button id="logout-btn">LOG OUT</button>
+    </div>
+    <form id="submit" style="border: 1px solid black;">
+        <input type="text" class="home-title" placeholder="enter your title" id="title"> <br>
+        <input type="text " class="home-title" placeholder="enter your description" id="description"> <br>
+        <button class="home-btn" type="submit">Submit</button>
+    </form>
+
+    <div id="container2">
+    </div>
+
+    <!-- SWEETALERT LINK -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- FONTAWESOME LINK -->
+    <script src="https://kit.fontawesome.com/395827b13c.js" crossorigin="anonymous"></script>
+
+    <!-- CONNECT JS FILE -->
+    <script type="module" src="home.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register User</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,500;1,300&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div class="main-div">
+        <h1 class="main-head2 text-white ">Connect Hub</h1>
+        <div>
+            <form id="register">
+                <input class="form-input" id="register-fullname" type="text" placeholder=" Full Name"> <br> <br>
+                <input class="form-input" id="register-phonenum" type="number" placeholder=" Phone Number"> <br> <br>
+                <input class="form-input" id="register-email" type="email" placeholder=" Email"> <br> <br>
+                <input type="password" id="register-password" class="form-input" placeholder=" Password">
+                <span id="wrongpass"></span>
+                <button type="submit"  class="login-btn">REGISTER</button>
+            </form>
+        </div>
+        <span class="breakline1">____________________</span><span class="breakline2">OR</span><span>______________________</span>
+        <div>
+            <button class="social-icons1"><i class="icon fa-brands fa-instagram"></i></i></button>
+            <button class="social-icons23"><i class="icon fa-brands fa-twitter"></i></button>
+            <button class="social-icons23"><i class="icon fa-brands fa-linkedin"></i></button>
+        </div> <br> <br><br> 
+            <!-- <p id="forget-pass" class="forget-btn">By signing up, you agree to our Terms , Privacy Policy and Cookies Policy</p> -->
+    </div>
+        <p class="dontacc-btn">Already have an account:<span><a href="login.html">Log in</a></span></p>
+    
+
+    <!-- SWEETALERT LINK -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- FONTAWESOME LINK -->
+    <script src="https://kit.fontawesome.com/395827b13c.js" crossorigin="anonymous"></script>
+
+    <!-- CONNECT JS FILE -->
+    <script type="module" src="register.js"></script>
+</body>
+</html>
